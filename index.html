@@ -5,10 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3rd Gen 4Runner Product Page</title>
-    <link rel="stylesheet" href="css\style.css" </head>
+    <link rel="stylesheet" href="css\style.css">
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+</head>
 
 <body>
+    <header id="header">
+        <div class="header-img">
+            <img id="header-img"
+                src="https://www.toyota-4runner.org/attachments/general-discussions/84172d1363900574-poll-whats-your-favorite-4runner-logo-badge-edited-repost-toyota_4runner-jpg">
 
+            <div class="nav-bar">
+                <nav id="nav-bar">
+                    <ul class="links">
+                        <a class="nav-link" href="#feature">Features</a>
+                        <a class="nav-link" href="#overview">Overview</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h1 class="title">Focus on Utility</h1>
+        <input id="email" type="email" name="email" placeholder="Enter your email address here" button type="submit">
+        <input button id="submit" type="submit" value="Submit">
+
+        <br>
+        <div class="text" id="feature">
+            <h1>Legendary Toyota Quality</h1>
+            <p>Offered in two trim levels--SR5 and Limited and with two or four- wheel drive--the 4Runner is powered by
+                a mighty dual-overhead cam 3.4-liter V6 engine paired with an automatic transmission. The engine
+                produces 183 horsepower at 4,800 rpm and 217 foot pounds of torque at 3,600 rpm.</p>
+            <h1>A True Go Anywhere, Do Anything Vehicle</h1>
+            <p>Both the suspension and frame were designed to balance on-road comfort and off-road performance. A
+                coil-spring, double-wishbone front suspension features a closed structure for the lower arm. This design
+                adds strength while minimizing weight. Off-road enthusiasts will also find enhanced low-traction
+                performance available through a locking center differential and a two-speed transfer case. With the
+                center differential lock switch engaged, the front and rear axles are locked together for better grip in
+                low-traction situations.</p>
+            <h1>Most Appealing Compact SUV</h1>
+            <p>A rugged exterior houses a spacious interior with plenty of creature comforts. Full cut-pile carpeting,
+                front four-way adjustable fabric bucket seats and rear 50/50 split folding fabric bench seat
+                successfully blend comfort and utility. An overhead console with a garage door opener/sunglass holder, a
+                center console storage box with dual cupholders and two power outlets in the front and an additional
+                power outlet in the rear cargo area make 4Runner convenient to use as well.</p>
+        </div>
+        <br>
+
+        <div id="overview">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nk_qqgiVKBw" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="pricing" class="flex-box-container">
+            <div class="products">
+                <div class="product-title">
+                    <h1>SR5</h1>
+                </div>
+                <div class="product-description">
+                    <h2>$28,875</h2>
+                    <p>17 / 19 City / HW MPG</p>
+                    <p>183 HP</p>
+                    <p>3.4L Auto 6-Cylinder 4-Speed Automatic with Overdrive</p>
+                </div>
+                <div class="product-submit">
+                    <input id="product-submit" button type="submit" value="Select">
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="product-title">
+                    <h1>Limited</h1>
+                </div>
+                <div class="product-description">
+                    <h2>$36,105</h2>
+                    <p>16 / 19 City / HW MPG</p>
+                    <p>183 HP</p>
+                    <p>3.4L Auto 6-Cylinder 4-Speed Automatic with Overdrive</p>
+                </div>
+                <div class="product-submit">
+                    <input id="product-submit" button type="submit" value="Select">
+                </div>
+            </div>
+
+
+        </div>
+
+    </form>
 </body>
 
 </html>
